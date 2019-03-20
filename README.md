@@ -2,6 +2,11 @@
 
 This project acts a boilerplate for the GraphQL layer of visualizations.
 
+[React layer](https://github.com/shahcompbio/viz-react-boilerplate)
+[GraphQL layer](https://github.com/shahcompbio/viz-graphql-boilerplate)
+
+## Features
+
 - Powered by [Apollo](https://www.apollographql.com/)
 
 ## Available Scripts
