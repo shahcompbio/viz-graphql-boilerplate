@@ -8,6 +8,7 @@ This project acts a boilerplate for the GraphQL layer of visualizations.
 ## Features
 
 - Powered by [Apollo](https://www.apollographql.com/)
+- Production build in [Docker](https://www.docker.com/)
 
 ## Available Scripts
 
@@ -24,3 +25,12 @@ You will also see any lint errors in the console.
 ### `yarn build`
 
 Transpiles the app for production to the `lib` folder.<br>
+
+## Docker build
+
+This project can be built for production and packaged with Docker. To do this:
+
+```
+docker build . -t graphql-boilerplate
+docker run -d -p 4000:4000 --name graphql graphql-boilerplate
+```
