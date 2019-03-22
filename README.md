@@ -9,6 +9,7 @@ This project acts a boilerplate for the GraphQL layer of visualizations.
 
 - Powered by [Apollo](https://www.apollographql.com/)
 - Production build in [Docker](https://www.docker.com/)
+- Snapshot testing with [Jest](https://jestjs.io/)
 
 ## Available Scripts
 
@@ -24,7 +25,11 @@ You will also see any lint errors in the console.
 
 ### `yarn build`
 
-Transpiles the app for production to the `lib` folder.<br>
+Transpiles the app for production to the `lib` folder.
+
+### `yarn test`
+
+Runs all tests.
 
 ## Docker build
 
