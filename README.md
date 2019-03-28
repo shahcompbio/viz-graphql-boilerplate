@@ -11,6 +11,15 @@ This project acts a boilerplate for the GraphQL layer of visualizations.
 - Production build in [Docker](https://www.docker.com/)
 - Snapshot testing with [Jest](https://jestjs.io/)
 
+## How to use
+
+To use the boilerplate:
+
+```
+git clone --depth=1 https://github.com/shahcompbio/viz-graphql-boilerplate.git <your project name>
+rm -r <your project name>/.git
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
